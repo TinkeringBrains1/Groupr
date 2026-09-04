@@ -1,0 +1,13 @@
+# Secrets -- never commit
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# LLM response caches (regeneratable)
+agents/llm_cache/
+agents/llm_cache_transitive/
+agents/llm_cache_drift/

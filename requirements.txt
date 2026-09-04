@@ -1,0 +1,4 @@
+faker
+python-dotenv
+groq
+langgraph
